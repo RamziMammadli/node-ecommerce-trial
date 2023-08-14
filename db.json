@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "http://localhost:3000/images/products/img1.jpg",
+      "title": "Xiaomi Poco X3 Pro 256GB",
+      "price": 300
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:3000/images/products/img2.jpg",
+      "title": "Iphone 13 256GB",
+      "price": 1200
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:3000/images/products/img3.jpg",
+      "title": "Sneaker Venom Red",
+      "price": 49.99
+    },
+    {
+      "id": 4,
+      "image": "http://localhost:3000/images/products/img4.jpg",
+      "title": "New Balance Speed",
+      "price": 89.99
+    },
+    {
+      "id": 5,
+      "image": "http://localhost:3000/images/products/img5.jpg",
+      "title": "L`HOMME IDEAL Parfume",
+      "price": 120
+    },
+    {
+      "id": 6,
+      "image": "http://localhost:3000/images/products/img6.jpg",
+      "title": "Jean Paul Parfume",
+      "price": 85
+    },
+    {
+      "id": 7,
+      "image": "http://localhost:3000/images/products/img7.jpg",
+      "title": "Gucci Coat",
+      "price": 185.99
+    },
+    {
+      "id": 8,
+      "image": "http://localhost:3000/images/products/img8.jpg",
+      "title": "Polo Sweatshirt",
+      "price": 65
+    },
+    {
+      "id": 9,
+      "image": "http://localhost:3000/images/products/img9.jpg",
+      "title": "Smoking Shoes",
+      "price": 110
+    },
+    {
+      "id": 10,
+      "image": "http://localhost:3000/images/products/img10.jpg",
+      "title": "Kilian Parfume",
+      "price": 39.99
+    },
+    {
+      "id": 11,
+      "image": "http://localhost:3000/images/products/img11.png",
+      "title": "Gucci Man Coat",
+      "price": 145
+    },
+    {
+      "id": 12,
+      "image": "http://localhost:3000/images/products/img12.jpg",
+      "title": "Classic Watch",
+      "price": 19.99
+    }
+  ],
+  "basket": [],
+  "favourites": []
+}

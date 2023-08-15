@@ -51,6 +51,18 @@ app.post('/api/favourites', (req, res) => {
   res.json(newFavourite);
 });
 
+// Sebet delete
+app.delete('/api/basket/:productId', (req, res) => {
+  const productId = parseInt(req.params.productId, 10);
+  res.json({ message: `Product with ID ${productId} has been removed from the basket.` });
+});
+
+// Wishlist delete
+app.delete('/api/favourites/:productId', (req, res) => {
+  const productId = parseInt(req.params.productId, 10);
+  res.json({ message: `Product with ID ${productId} has been removed from the favourites.` });
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

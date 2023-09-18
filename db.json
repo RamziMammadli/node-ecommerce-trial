@@ -86,7 +86,7 @@
     },
     {
       "id": 13,
-      "image": "http://localhost:3000/images/products/img13.jpg",
+      "image": "http://localhost:3000/images/products/img13.png",
       "title": "Minion Robot",
       "price": 30,
       "category": "Toy"
@@ -177,7 +177,7 @@
     },
     {
       "id": 26,
-      "image": "http://localhost:3000/images/products/img26.jpg",
+      "image": "http://localhost:3000/images/products/img26.png",
       "title": "Lenovo 8 RAM 256 GB ",
       "price": 49.99,
       "category": "Electronics"
@@ -219,7 +219,7 @@
     },
     {
       "id": 32,
-      "image": "http://localhost:3000/images/products/img32.jpg",
+      "image": "http://localhost:3000/images/products/img32.png",
       "title": "World History Books",
       "price": 220
     },
@@ -230,6 +230,28 @@
       "price": 39.99
     }
   ],
-  "basket": [],
+  "basket": [
+    {
+      "id": 6,
+      "image": "http://localhost:3000/images/products/img6.jpg",
+      "title": "Jean Paul Parfume",
+      "price": 85,
+      "category": "Parfume"
+    },
+    {
+      "id": 7,
+      "image": "http://localhost:3000/images/products/img7.jpg",
+      "title": "Gucci Coat",
+      "price": 185.99,
+      "category": "Dress"
+    },
+    {
+      "id": 1,
+      "image": "http://localhost:3000/images/products/img1.jpg",
+      "title": "Xiaomi Poco X3 Pro 256GB",
+      "price": 300,
+      "category": "Phone"
+    }
+  ],
   "favourites": []
 }

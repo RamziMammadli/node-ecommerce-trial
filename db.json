@@ -253,5 +253,13 @@
       "category": "Phone"
     }
   ],
-  "favourites": []
+  "favorites": [
+    {
+      "id": 1,
+      "image": "http://localhost:3000/images/products/img1.jpg",
+      "title": "Xiaomi Poco X3 Pro 256GB",
+      "price": 300,
+      "category": "Phone"
+    }
+  ]
 }

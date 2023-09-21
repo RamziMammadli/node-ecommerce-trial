@@ -28,7 +28,7 @@ app.get('/api/basket', (req, res) => {
 });
 
 // wishlist
-app.get('/api/favourites', (req, res) => {
+app.get('/api/favorites', (req, res) => {
   const favourites = []; 
   res.json(favourites);
 });
@@ -46,7 +46,7 @@ app.post('/api/basket', (req, res) => {
 });
 
 // add wishlist
-app.post('/api/favourites', (req, res) => {
+app.post('/api/favorites', (req, res) => {
   const newFavourite = req.body;
   res.json(newFavourite);
 });
@@ -58,7 +58,7 @@ app.delete('/api/basket/:productId', (req, res) => {
 });
 
 // Wishlist delete
-app.delete('/api/favourites/:productId', (req, res) => {
+app.delete('/api/favorites/:productId', (req, res) => {
   const productId = parseInt(req.params.productId, 10);
   res.json({ message: `Product with ID ${productId} has been removed from the favourites.` });
 });
